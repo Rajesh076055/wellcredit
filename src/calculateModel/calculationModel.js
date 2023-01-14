@@ -1,7 +1,7 @@
 
 import { Today } from '@mui/icons-material';
 import { type } from '@testing-library/user-event/dist/type';
-import data from './details.json';
+import data from '../details.json';
 const users = ['prat051','rajesh_dai']
 const e = Math.E;
 
@@ -79,28 +79,24 @@ function returnpercentChange(lastScore,currentScore)
     return ((currentScore-lastScore)/lastScore) * 100;
 }
    
-function returnDataLocation(userID,Bank)
+function returnDataLocation(userID,found)
+{
 
+}
 
-{ 
-    console.log(data[Bank]);
+function returnLastFiveMonthData()
+   
+
+const validation = (userID)=> 
+{   var found = false;  
     for (var i = 0; i <(data.Himalayan_Bank.registered_users).length; i++)
     {
         if(data.Himalayan_Bank.registered_users[i] === userID)
         {
-            return true;
+            found = true;
         }
     }
 
-
-}
-
-
-   
-
-const validation = (userID,Bank)=> 
-{   var found = returnDataLocation(userID,Bank);  
-   
 
     
     if (found)  
@@ -143,7 +139,7 @@ const validation = (userID,Bank)=>
             last_five_month_score[tempMonth] = credit_score_history[tempMonth];
         }
         
-       
+        console.log(last_five_month_score);
         
         let credit_history_length_score = calculateCreditHistoryLengthScore(length_of_credit_history);
         let credit_utilization_score = calculateCreditUtilizationScore(credit_utilization_ratio);
@@ -181,4 +177,7 @@ const validation = (userID,Bank)=>
 
 
 
-export default validation
+module.exports = {
+    validation
+}
+
