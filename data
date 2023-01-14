@@ -1,0 +1,16 @@
+ {"Status": "good"
+ , "Seniority": 9,
+  "Home": "rent", 
+  "Time": 60, 
+  "Age": 30,
+   "Marital": "married",
+    "Records": "no_rec",
+     "Job": "freelance",
+      "Expenses": 73, 
+      "Income": 129, 
+      "Assets": 0,
+       "Debt": 0, 
+       "Amount": 800,
+        "Price": 846,
+         "Finrat": 94.56264775, 
+         "Savings": 4.2}

@@ -1,0 +1,42 @@
+.Navigation__Container
+{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+    font-family: 'Inter';
+    
+}
+.Navigation__Logo
+{   
+   
+
+    object-fit: contain;
+    flex:2;
+}
+
+.Navigation__Links
+{
+    margin-left: 900px;
+}
+.Navigation__Links ul 
+{   
+   
+    display: flex;
+   
+    justify-content: flex-end;
+  
+}
+
+.Links 
+{
+    margin: 0 20px 0 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color:white;
+}
+.Links:hover
+{
+    transform: scale(1.09);
+    transition: 0.2s ease-in-out;
+}

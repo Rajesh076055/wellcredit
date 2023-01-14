@@ -1,0 +1,65 @@
+.HomePage__Container
+{
+    background-color: #232222;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+.HomePage__Darken
+{
+    width: 100%;
+    height: 392.5px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 70%;
+}
+.HomePage__Title
+{
+    background-image: url("C:/Users/na/Downloads/credit_bgm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex:2;
+}
+.HomePage__Foot
+{
+    display: flex;
+    align-items: center;
+}
+.HomePage_FootDes
+{
+    flex: 3;
+}
+.HomePage__Buttons
+{   flex:3;
+    display: flex;
+    align-items: center;
+   
+    padding:30px;
+    height: 150px;
+    
+}
+.HomePage__Button
+{
+    border: none;
+    height: 180px;
+    margin: 10px;
+    width:180px;
+    cursor: pointer;
+    background-color:rgb(43, 42, 42) ;
+    filter:drop-shadow(3px 7px 4px rgb(24, 24, 24));
+    color:#edecec;
+
+}
+.HomePage__Button:hover
+{
+    transform: scale(1.08);
+    transition: 0.2s ease-in-out;
+}
+
+#finance_id
+{
+    color:#44B875;
+ 
+    
+}

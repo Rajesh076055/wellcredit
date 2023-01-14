@@ -1,0 +1,293 @@
+{
+    "Himalayan Bank": 
+        {
+            "registered_users":["Pratik Dahal", "Rahul Kumar Jha", "Rajesh Neupane", "Sumit Yadav"],
+            "user_details": 
+                [
+                    {
+                        "name": "Pratik Dahal",
+                        "is_suspended": "False",
+                        "username": "prat051",
+                        "citizenship_id": "183-214-324",
+                        "timely_payments": 15,
+                        "overdue_payments": 5,
+                        "credit_default_record": 0,
+                        "credit_utilization_ratio": 0.14,
+                        "length_of_credit_history_in_days": 1500,
+                        "types_of_credit": 3,
+                        "credit_history": 
+                        [
+                            {
+                                "credit_id": "123-456-789",  
+                                "credit_no": 1,
+                                "credit_amount": 20000,
+                                "date_of_credit_taken": "2022/10/26",                                               
+                                "date_of_credit_settled": "2022/11/05",
+                                "credit_duration_in_days": 20 
+                                
+                            }
+                        ],
+                        "credit_score_history":{
+                            "January":300,
+                            "February":310,
+                            "March":312,
+                            "April":350,
+                            "may":345,
+                            "June":340,
+                            "July":380,
+                            "August":400,
+                            "September":385,
+                            "October":360,
+                            "November":500,
+                            "December":500
+                        }
+                        
+
+
+                    },
+                    {
+                        "name": "Rahul Kumar Jha",
+                        "is_suspended": "False",
+                        "username": "jharahul699",
+                        "citizenship_id": "183-214-123",
+                        "timely_payments": 19,
+                        "overdue_payments": 6,
+                        "credit_default_record": 0,
+                        "credit_utilization_ratio": 0.12,
+                        "length_of_credit_history_in_days": 1560,
+                        "types_of_credit": 3,
+                        "credit_history": 
+                        [
+                            {
+                                "credit_id": "123-456-789",  
+                                "credit_no": 1,
+                                "credit_amount": 20000,
+                                "date_of_credit_taken": "2022/10/26",                                               
+                                "date_of_credit_settled": "2022/11/05",
+                                "credit_duration_in_days": 20 
+                                
+                            }
+                        ],
+                        "credit_score_history":{
+                            "January":300,
+                            "February":110,
+                            "March":412,
+                            "April":380,
+                            "may":335,
+                            "June":320,
+                            "July":310,
+                            "August":420,
+                            "September":385,
+                            "October":460,
+                            "November":600,
+                            "December":670
+                        }
+                        
+
+
+                    }
+                ]
+        },
+
+    "Nepal Investment Bank":
+        {
+            "registered_users": [
+                "pZsKXsloTS",
+                "IfatnDkUcN",
+                "dYrnpReqRc",
+                "iOaYbBThtJ",
+                "Sumit Yadav"
+            ],
+            "user_details": [
+                {
+                    "name": "pZsKXsloTS",
+                    "is_suspended": "True",
+                    "username": "rqYxuySD",
+                    "citizenship_id": "758601332",
+                    "timely_payments": 14,
+                    "overdue_payments": 2,
+                    "credit_default_record": 1,
+                    "credit_utilization_ratio": 0.95,
+                    "length_of_credit_history_in_days": 1089,
+                    "types_of_credit": 5,
+                    "credit_history": [
+                        {
+                            "credit_id": "906826933",
+                            "credit_no": 4,
+                            "credit_amount": 43420,
+                            "date_of_credit_taken": "2022/10/26",
+                            "date_of_credit_settled": "2022/11/05",
+                            "credit_duration_in_days": 20
+                        }
+                    ],
+                    "credit_score_history": {
+                        "January": 432,
+                        "February": 502,
+                        "March": 598,
+                        "April": 448,
+                        "may": 671,
+                        "June": 628,
+                        "July": 394,
+                        "August": 698,
+                        "September": 630,
+                        "October": 692,
+                        "November": 602,
+                        "December": 513
+                    }
+                },
+                {
+                    "name": "IfatnDkUcN",
+                    "is_suspended": "False",
+                    "username": "fkvvIhqb",
+                    "citizenship_id": "538305271",
+                    "timely_payments": 8,
+                    "overdue_payments": 5,
+                    "credit_default_record": 0,
+                    "credit_utilization_ratio": 0.19,
+                    "length_of_credit_history_in_days": 1884,
+                    "types_of_credit": 2,
+                    "credit_history": [
+                        {
+                            "credit_id": "500988735",
+                            "credit_no": 3,
+                            "credit_amount": 17331,
+                            "date_of_credit_taken": "2022/10/26",
+                            "date_of_credit_settled": "2022/11/05",
+                            "credit_duration_in_days": 20
+                        }
+                    ],
+                    "credit_score_history": {
+                        "January": 614,
+                        "February": 555,
+                        "March": 412,
+                        "April": 693,
+                        "may": 406,
+                        "June": 627,
+                        "July": 569,
+                        "August": 695,
+                        "September": 327,
+                        "October": 687,
+                        "November": 381,
+                        "December": 440
+                    }
+                },
+                {
+                    "name": "dYrnpReqRc",
+                    "is_suspended": "False",
+                    "username": "NJOtrFsd",
+                    "citizenship_id": "092981024",
+                    "timely_payments": 13,
+                    "overdue_payments": 2,
+                    "credit_default_record": 0,
+                    "credit_utilization_ratio": 0.27,
+                    "length_of_credit_history_in_days": 1168,
+                    "types_of_credit": 4,
+                    "credit_history": [
+                        {
+                            "credit_id": "525095247",
+                            "credit_no": 5,
+                            "credit_amount": 13241,
+                            "date_of_credit_taken": "2022/10/26",
+                            "date_of_credit_settled": "2022/11/05",
+                            "credit_duration_in_days": 20
+                        }
+                    ],
+                    "credit_score_history": {
+                        "January": 573,
+                        "February": 322,
+                        "March": 633,
+                        "April": 518,
+                        "may": 620,
+                        "June": 546,
+                        "July": 461,
+                        "August": 379,
+                        "September": 356,
+                        "October": 313,
+                        "November": 659,
+                        "December": 654
+                    }
+                },
+                {
+                    "name": "iOaYbBThtJ",
+                    "is_suspended": "True",
+                    "username": "XnlDSEVW",
+                    "citizenship_id": "398989344",
+                    "timely_payments": 6,
+                    "overdue_payments": 6,
+                    "credit_default_record": 0,
+                    "credit_utilization_ratio": 0.87,
+                    "length_of_credit_history_in_days": 1616,
+                    "types_of_credit": 1,
+                    "credit_history": [
+                        {
+                            "credit_id": "355996963",
+                            "credit_no": 5,
+                            "credit_amount": 15669,
+                            "date_of_credit_taken": "2022/10/26",
+                            "date_of_credit_settled": "2022/11/05",
+                            "credit_duration_in_days": 20
+                        }
+                    ],
+                    "credit_score_history": {
+                        "January": 373,
+                        "February": 595,
+                        "March": 358,
+                        "April": 686,
+                        "may": 449,
+                        "June": 619,
+                        "July": 439,
+                        "August": 667,
+                        "September": 555,
+                        "October": 626,
+                        "November": 452,
+                        "December": 605
+                    }
+                },
+                {
+                    "name": "Sumit Yadav",
+                    "is_suspended": "True",
+                    "username": "XecGKeoW",
+                    "citizenship_id": "064835542",
+                    "timely_payments": 17,
+                    "overdue_payments": 6,
+                    "credit_default_record": 0,
+                    "credit_utilization_ratio": 0.53,
+                    "length_of_credit_history_in_days": 1377,
+                    "types_of_credit": 1,
+                    "credit_history": [
+                        {
+                            "credit_id": "359361161",
+                            "credit_no": 2,
+                            "credit_amount": 15715,
+                            "date_of_credit_taken": "2022/10/26",
+                            "date_of_credit_settled": "2022/11/05",
+                            "credit_duration_in_days": 20
+                        }
+                    ],
+                    "credit_score_history": {
+                        "January": 698,
+                        "February": 495,
+                        "March": 417,
+                        "April": 488,
+                        "may": 322,
+                        "June": 542,
+                        "July": 584,
+                        "August": 434,
+                        "September": 627,
+                        "October": 387,
+                        "November": 563,
+                        "December": 652
+                    }
+                }
+            ]
+        }
+    
+
+}
+
+
+   
+
+
+
+

@@ -1,0 +1,170 @@
+.credit__Container
+{
+    margin:0;
+    background-color:#232222;
+    height:160vh;
+   
+}
+.credit__Title
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 50px 0 50px;
+    
+}
+.credit__Title h2
+{
+   color:#edecec;
+
+    font-family: 'Inter';
+}
+.credit__DataBox
+{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: auto;
+
+}
+.credit__DataBoxSegment
+{
+    background-color: rgb(43, 42, 42);
+    width: 270px;
+    height:100px;
+    padding: 8px;
+    font-family: 'Inter';
+}
+
+#box__title
+{
+    color:#d9d8d8b2;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#box__data
+{
+    color:#44B875;
+}
+
+#box__dataWhite
+{
+    color:#17A8F5;
+}
+.credit__Additional
+{
+    margin-top: 47px;
+    display: flex;
+    align-items: center;
+    padding:8px;
+}
+.credit__meter,.credit__stuffs
+{   display: flex;
+    flex:1;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(43, 42, 42); 
+    height: 250px;
+    margin-right: 2px;
+}
+
+
+.credit__Graphs
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
+    font-family: 'Inter';
+    height: 300px;
+    margin-top: 40px;
+    
+
+}
+.credit__Info
+{
+    display: flex;
+    margin-top:12%;
+  
+    
+    
+}
+
+.credit__logo
+{
+    
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.credit__logo img
+{
+   
+    object-fit: contain;
+    width: 300px;
+    background-repeat: no-repeat;
+  
+    
+
+}
+.credit__InfoIns
+{
+    flex:1;
+    margin-left: 60px;
+   
+}
+.searchInput
+{
+    background: transparent;
+    border: 1px solid white;
+}
+.searchInput:focus, .searchInput:active
+{
+    background:transparent;
+    color:white;
+   
+}
+
+
+.credit__GraphsSegment1
+{
+   
+    background-color:rgb(43, 42, 42); ;
+    width:600px;
+    height: 350px;
+    padding: 8px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+
+.credit__GraphsSegment2
+{
+    background-color:rgb(43, 42, 42); ;
+    width:600px;
+    padding: 8px;
+    height: 350px;
+    margin-top: 15px;
+}
+
+.credit__NotFoundUser
+{
+    font-family:'Inter';
+    align-items: center;
+    color:#EDECEC;
+    display: flex;
+    flex-direction: column;
+
+}
+._404Image
+{
+
+    margin:auto;
+    
+
+}
