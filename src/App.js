@@ -7,6 +7,7 @@ import CreditCalculation from './CreditCalculation';
 import SignUp from './Register';
 import { SliderData } from './cards';
 import CreditCardRecom from './CreditCardRecom';
+import LoanLimit from './LoanLimit';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path = '/interface' element = {<HomePage/>}></Route>
         <Route exact path = "/interface/creditscore" element = {<CreditCalculation/>}></Route>
         <Route exact path = "/interface/creditcards" element = {<CreditCardRecom slides = {SliderData}/>}></Route>
+        <Route exact path = "/interface/loans" element = {<LoanLimit/>}></Route>
 
      
    

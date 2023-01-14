@@ -72,7 +72,7 @@ function CreditCalculation() {
               <div className = "credit__Info" style = {{fontFamily:'Inter'}}>
                 <div className = "credit__InfoIns">
                     <div className='searchBar' style = {{display:'flex',alignItems:'center',flex:1,marginRight:200}}>
-                      <input className = "searchInput" placeholder='Search' onChange = {(data) =>setSearch(data.target.value)} style={{padding:10.5,borderRadius:5,width:200,margin:4}}></input>
+                      <input className = "searchInput" placeholder='Full Name' onChange = {(data) =>setSearch(data.target.value)} style={{padding:10.5,borderRadius:5,width:200,margin:4}}></input>
                       <input className = "searchInput" placeholder='Bank' onChange = {(data) =>setBankName(data.target.value)} style={{padding:10.5,borderRadius:5,width:200,margin:4}}></input>
 
                       <Button variant = "contained" style = {{backgroundColor:"#44B875",marginLeft:5}} onClick = {validateUser}>Validate</Button>

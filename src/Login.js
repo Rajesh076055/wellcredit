@@ -112,7 +112,7 @@ export default function Login() {
             SIGN IN
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1,}}>
-            <TextField 
+           <TextField 
         
               margin="normal"
               required
@@ -143,26 +143,26 @@ export default function Login() {
               type="submit"
               fullWidth
               variant="contained"
-              sx={{ mt: 3, mb: 2 ,backgroundColor:'#44B875'}}
+              sx={{ mt: 3, mb: 2 ,backgroundColor:'#232222'}}
               className = "Button__Signin"
             >
               Sign In
             </Button>
             <Grid container>
               <Grid item xs>
-                <Link href="#" variant="body2">
+                <Link href="#" variant="body2" sx = {{color:'#fff'}}>
                   Forgot password?
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="#" variant="body2" >
+                <Link href="#" variant="body2" sx = {{color:'#fff'}} >
                   {"Don't have an account? Sign Up"}
                 </Link>
               </Grid>
             </Grid>
           </Box>
         </Box>
-        <Copyright sx={{ mt: 8, mb: 4,color:'white' }} />
+        
       </Container>
    
         </div>

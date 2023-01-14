@@ -68,7 +68,7 @@ function CreditCardRecom({ slides }) {
         {!show &&  <div className = "credit__Info" style = {{fontFamily:'Inter'}}>
                 <div className = "credit__InfoIns">
                     <div className='searchBar' style = {{display:'flex',alignItems:'center',flex:1,marginRight:200}}>
-                      <input className = "searchInput" placeholder='Search' onChange = {(data) =>setSearch(data.target.value)} style={{padding:10.5,borderRadius:5,width:400}}></input>
+                      <input className = "searchInput" placeholder='Credit Score' onChange = {(data) =>setSearch(data.target.value)} style={{padding:10.5,borderRadius:5,width:400}}></input>
                       <Button variant = "contained" style = {{backgroundColor:"#44B875",marginLeft:10}} onClick = {validateUser}>Validate</Button>
                     </div>
                     <h4 style = {{color:'#EDECEC'}}>Please Enter credit score.</h4>

@@ -1,6 +1,6 @@
 .Login__Container 
 {
-    background-color: #232222;
+    background-color: #44B875;
     background-size: cover;
     height: 100vh;
     
@@ -13,7 +13,7 @@
 }
 .Button__Signin:hover
 {
-    background-color: #287146;
+    background-color: #000;
 }
 .Login__Inputs
 {
